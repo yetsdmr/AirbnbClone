@@ -11,6 +11,8 @@
 		4ABAE5DB2AE1C91200CC75AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABAE5DA2AE1C91200CC75AA /* ContentView.swift */; };
 		4ABAE5DD2AE1C91200CC75AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABAE5DC2AE1C91200CC75AA /* Assets.xcassets */; };
 		4ABAE5E02AE1C91200CC75AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ABAE5DF2AE1C91200CC75AA /* Preview Assets.xcassets */; };
+		4ABB85562AE6A05C00086B9A /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB85552AE6A05C00086B9A /* ExploreView.swift */; };
+		4ABB85582AE6A53400086B9A /* ListingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB85572AE6A53400086B9A /* ListingItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		4ABAE5DA2AE1C91200CC75AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4ABAE5DC2AE1C91200CC75AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4ABAE5DF2AE1C91200CC75AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4ABB85552AE6A05C00086B9A /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		4ABB85572AE6A53400086B9A /* ListingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +156,7 @@
 		4ABB85532AE69F8300086B9A /* Listings */ = {
 			isa = PBXGroup;
 			children = (
+				4ABB85572AE6A53400086B9A /* ListingItemView.swift */,
 			);
 			path = Listings;
 			sourceTree = "<group>";
@@ -159,6 +164,7 @@
 		4ABB85542AE69F8500086B9A /* Explore */ = {
 			isa = PBXGroup;
 			children = (
+				4ABB85552AE6A05C00086B9A /* ExploreView.swift */,
 			);
 			path = Explore;
 			sourceTree = "<group>";
@@ -234,6 +240,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4ABAE5DB2AE1C91200CC75AA /* ContentView.swift in Sources */,
+				4ABB85582AE6A53400086B9A /* ListingItemView.swift in Sources */,
+				4ABB85562AE6A05C00086B9A /* ExploreView.swift in Sources */,
 				4ABAE5D92AE1C91200CC75AA /* AirbnbCloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
