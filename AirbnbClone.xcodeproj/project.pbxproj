@@ -19,6 +19,7 @@
 		4ABB85952AE7D5F000086B9A /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB85942AE7D5F000086B9A /* DestinationSearchView.swift */; };
 		4ABB85972AE7F33A00086B9A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB85962AE7F33A00086B9A /* ProfileView.swift */; };
 		4ABB85992AE9304E00086B9A /* ProfileOptionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB85982AE9304E00086B9A /* ProfileOptionRowView.swift */; };
+		4ABB859B2AE9325A00086B9A /* WishlistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB859A2AE9325A00086B9A /* WishlistsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		4ABB85942AE7D5F000086B9A /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
 		4ABB85962AE7F33A00086B9A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		4ABB85982AE9304E00086B9A /* ProfileOptionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileOptionRowView.swift; sourceTree = "<group>"; };
+		4ABB859A2AE9325A00086B9A /* WishlistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 		4ABB854E2AE69F7800086B9A /* Wishlists */ = {
 			isa = PBXGroup;
 			children = (
+				4ABB859A2AE9325A00086B9A /* WishlistsView.swift */,
 			);
 			path = Wishlists;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				4ABB85952AE7D5F000086B9A /* DestinationSearchView.swift in Sources */,
 				4ABAE5DB2AE1C91200CC75AA /* ContentView.swift in Sources */,
 				4ABB85582AE6A53400086B9A /* ListingItemView.swift in Sources */,
+				4ABB859B2AE9325A00086B9A /* WishlistsView.swift in Sources */,
 				4ABB85562AE6A05C00086B9A /* ExploreView.swift in Sources */,
 				4ABB855A2AE6AC0800086B9A /* SearchAndFilterBar.swift in Sources */,
 				4ABB855C2AE6B70C00086B9A /* ListingDetailView.swift in Sources */,
