@@ -17,6 +17,8 @@
 		4ABB855C2AE6B70C00086B9A /* ListingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB855B2AE6B70C00086B9A /* ListingDetailView.swift */; };
 		4ABB855F2AE6B7C100086B9A /* ListingImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB855E2AE6B7C100086B9A /* ListingImageCarouselView.swift */; };
 		4ABB85952AE7D5F000086B9A /* DestinationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB85942AE7D5F000086B9A /* DestinationSearchView.swift */; };
+		4ABB85972AE7F33A00086B9A /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB85962AE7F33A00086B9A /* ProfileView.swift */; };
+		4ABB85992AE9304E00086B9A /* ProfileOptionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABB85982AE9304E00086B9A /* ProfileOptionRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		4ABB855B2AE6B70C00086B9A /* ListingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingDetailView.swift; sourceTree = "<group>"; };
 		4ABB855E2AE6B7C100086B9A /* ListingImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingImageCarouselView.swift; sourceTree = "<group>"; };
 		4ABB85942AE7D5F000086B9A /* DestinationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationSearchView.swift; sourceTree = "<group>"; };
+		4ABB85962AE7F33A00086B9A /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		4ABB85982AE9304E00086B9A /* ProfileOptionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileOptionRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +155,8 @@
 		4ABB85512AE69F7E00086B9A /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				4ABB85962AE7F33A00086B9A /* ProfileView.swift */,
+				4ABB85982AE9304E00086B9A /* ProfileOptionRowView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4ABB855F2AE6B7C100086B9A /* ListingImageCarouselView.swift in Sources */,
+				4ABB85972AE7F33A00086B9A /* ProfileView.swift in Sources */,
+				4ABB85992AE9304E00086B9A /* ProfileOptionRowView.swift in Sources */,
 				4ABB85952AE7D5F000086B9A /* DestinationSearchView.swift in Sources */,
 				4ABAE5DB2AE1C91200CC75AA /* ContentView.swift in Sources */,
 				4ABB85582AE6A53400086B9A /* ListingItemView.swift in Sources */,
