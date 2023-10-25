@@ -24,7 +24,7 @@ struct Listing: Identifiable, Codable {
     let city: String
     let state: String
     let title: String
-    let rating: String
+    let rating: Double
     var features: [ListingFeatures]
     var amenities: [ListingAmenities]
     let type: ListingType
